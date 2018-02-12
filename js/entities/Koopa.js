@@ -1,4 +1,4 @@
-import Entity,{Sides} from '../entity.js';
+import Entity,{Sides} from '../Entity.js';
 import PendulumWalk from '../traits/PendulumWalk.js';
 import {loadSpriteSheet} from '../loaders.js';
 
