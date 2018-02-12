@@ -1,4 +1,4 @@
-import Compositor from './compositor.js';
+import Compositor from './Compositor.js';
 import TileCollider from './TileCollider.js';
 
 export default class Level{
