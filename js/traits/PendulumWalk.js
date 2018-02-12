@@ -1,4 +1,4 @@
-import {Trait,Sides} from '../entity.js';
+import {Trait,Sides} from '../Entity.js';
 
 export default class PendulumWalk extends Trait{
 	constructor(){
