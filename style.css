@@ -10,3 +10,8 @@
 	justify-content: center;
 	align-items: center;
 }
+
+#screen {
+	width: 100vw;
+	image-rendering: pixelated;
+}
