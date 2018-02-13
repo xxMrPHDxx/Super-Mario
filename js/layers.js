@@ -1,11 +1,12 @@
+import {WIDTH,HEIGHT,ROW,COLUMN} from './main.js';
 import TileResolver from './TileResolver.js';
 
 export function createBackgroundLayer(level,tiles,sprites){
 	const resolver = new TileResolver(tiles);
 
 	const buffer = document.createElement('canvas');
-	buffer.width = 256 + 16;
-	buffer.height = 240;
+	buffer.width = WIDTH + 16;
+	buffer.height = HEIGHT;
 
 	const ctx = buffer.getContext('2d');
 
